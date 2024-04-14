@@ -82,7 +82,9 @@ const Dashboard = (): JSX.Element => {
 
     return (
         <>
-            <div className=' md:px-2 sm:px-2 max-sm:px-2 '>
+        <div className=' flex justify-center flex-col items-center'>
+            
+        <div className=' md:px-2 sm:px-2 max-sm:px-2 items-center flex justify-center flex-col'>
                 {/* <Header /> */}
                 <p>Bank</p>
                 <p>Conected to {address}</p>
@@ -95,7 +97,7 @@ const Dashboard = (): JSX.Element => {
         <p style={{ color: "green"}}>{messages}</p>
         <form onSubmit={handleDeposit} >
 
-        <input type="number" placeholder='input amount' className=" w-[400px] h-10 border-2 rounded-sm my-4" value={valueinput} onChange={(e) => setValueInput(e.target.value)} />
+        <input type="number" placeholder='input amount' className=" w-[400px] h-10 border-2 rounded-sm my-4 px-3" value={valueinput} onChange={(e) => setValueInput(e.target.value)} />
         <button className="py-2 px-3 rounded bg-black text-white" type="submit" disabled={loading} style={{ display: "flex"}}>
          Deposit 
         </button>
@@ -114,6 +116,7 @@ const Dashboard = (): JSX.Element => {
 
       </main>
 
+        </div>
         </>
     )
 }
