@@ -97,8 +97,7 @@ const Dashboard = (): JSX.Element => {
 
         <input type="number" placeholder='input amount' className=" w-[400px] h-10 border-2 rounded-sm my-4" value={valueinput} onChange={(e) => setValueInput(e.target.value)} />
         <button className="py-2 px-3 rounded bg-black text-white" type="submit" disabled={loading} style={{ display: "flex"}}>
-        {loading ? (<>
-          <LoadingIcon /> Deposit</>) : "Deposit" } 
+         Deposit 
         </button>
         </form>
 
