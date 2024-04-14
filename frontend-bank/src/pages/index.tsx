@@ -86,7 +86,7 @@ const Dashboard = (): JSX.Element => {
                 {/* <Header /> */}
                 <p>Bank</p>
                 <p>Conected to {address}</p>
-                <button className=" py-2 px-3 rounded bg-red text-white " onClick={() => disconnect()}>
+                <button className=" py-2 px-3 rounded  bg-red-500 text-white " onClick={() => disconnect()}>
                     Disconnect
                 </button>
             </div>
