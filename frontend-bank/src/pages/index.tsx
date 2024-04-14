@@ -82,7 +82,7 @@ const Dashboard = (): JSX.Element => {
 
     return (
         <>
-            <div className=' md:px-2 sm:px-2 max-sm:px-2 '>
+            <div  className='p-5 md:px-2 sm:px-2 max-sm:px-2 '>
                 {/* <Header /> */}
                 <p>Bank</p>
                 <p>Conected to {address}</p>
@@ -90,7 +90,7 @@ const Dashboard = (): JSX.Element => {
                     Disconnect
                 </button>
             </div>
-            <main>
+            <main className='p-5'>
         {/* <ConnectButton /> */}
         <p style={{ color: "green"}}>{messages}</p>
         <form onSubmit={handleDeposit} >
