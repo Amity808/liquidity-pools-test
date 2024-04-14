@@ -9,9 +9,7 @@ import { ethers } from "ethers"
 import BankAbi from "@/ccontractabi/Bankabi.json"
 import LoadingIcon from "@/components/LoadingIcon"
 
-// const WalletOption = dynamic(() => import('@/layouts/wallet-option'), {
 
-// })
 
 const Dashboard = (): JSX.Element => {
 
