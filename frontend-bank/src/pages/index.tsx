@@ -1,7 +1,6 @@
 
 import React, { ReactElement, useState, useEffect } from 'react'
 import WagmiWrapperLayout from '@/layouts/Wagmi'
-import dynamic from 'next/dynamic'
 import WalletOptions from '@/layouts/wallet-option'
 import { useDisconnect } from "wagmi"
 import { useWriteContract, useSimulateContract, useAccount, useReadContract } from "wagmi";
@@ -131,3 +130,4 @@ Dashboard.getLayout = function getLayout(page: ReactElement) {
 }
 
 export default Dashboard
+
