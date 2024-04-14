@@ -85,31 +85,34 @@ const Dashboard = (): JSX.Element => {
             <div className=' md:px-2 sm:px-2 max-sm:px-2 '>
                 {/* <Header /> */}
                 <p>Bank</p>
-                <button onClick={() => disconnect()}>
+                <p>Conected to {address}</p>
+                <button className=" py-2 px-3 rounded bg-red text-white " onClick={() => disconnect()}>
                     Disconnect
                 </button>
             </div>
             <main>
         {/* <ConnectButton /> */}
         <p style={{ color: "green"}}>{messages}</p>
-        <form onSubmit={handleDeposit}>
+        <form onSubmit={handleDeposit} >
 
-        <input type="text" value={valueinput} onChange={(e) => setValueInput(e.target.value)} placeholder="" />
-        <button type="submit" disabled={loading} style={{ display: "flex"}}>
+        <input type="number" placeholder='input amount' className=" w-[400px] h-10 border-2 rounded-sm my-4" value={valueinput} onChange={(e) => setValueInput(e.target.value)} />
+        <button className="py-2 px-3 rounded bg-black text-white" type="submit" disabled={loading} style={{ display: "flex"}}>
         {loading ? (<>
           <LoadingIcon /> Deposit</>) : "Deposit" } 
         </button>
         </form>
 
-        <div>
+          <div className=' mt-4'>
+            Balance: {formatBalance} ether
+          </div>
+        <div className="mt-4">
           <p style={{ color: "green"}}>{withMesssage}</p>
-          <button onClick={withdraw} disabled={loading}>Withdraw
+          <button onClick={withdraw} disabled={loading}
+          className="py-2 px-3 rounded bg-black text-white"
+          >Withdraw
           </button>
         </div>
 
-        <div>
-          Balance: {formatBalance} ether
-        </div>
       </main>
 
         </>
