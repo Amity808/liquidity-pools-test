@@ -17,6 +17,8 @@ Wallet can be connected through MetaMask, CoinbaseWallet, WalletConnect and Inje
     - MetaMask
 
     <img src="wagmiconfig.png" alt="wagmiconfig" width="200"/>
+    ![Example Image](wagmiconfig.png)
+
 
 
 
