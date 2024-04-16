@@ -17,18 +17,19 @@ Wallet can be connected through MetaMask, CoinbaseWallet, WalletConnect and Inje
 
 <img src="./wagmiconfig.png" alt="wagmiconfig" width="200"/>
 
-![alt text](https://raw.githubusercontent.com/Amity808/liquidity-pools-test/frontend/frontend-bank/public/wallet-option.png)
-
-![Model](https://raw.githubusercontent.com/Amity808/liquidity-pools-test/frontend/frontend-bank/public/wallet-option.png)
 
 
 
-
-
-
-### We stup a wagmi wrapper layout to wrapped every
+**We setup a wagmi wrapper layout to wrapped every components or pages that we want to setup wallet connet options**
     
-    <img src="./wrapper.png" alt="wagmiconfig" width="200"/>
+<img src="./frontend-bank/public/wrapper.png" alt="wagmiwrapper" width="200"/>
+
+
+**We setup our wagmi connect wallet status options for every action your wallet is performing such as connecting, isconnecting disconnect and other status as well** 
+
+<img src="./frontend-bank/public/wallet-option.png" alt="wagmiwrapper" width="200"/>
+<img src="./frontend-bank/public/Screenshot 2024-04-16 121442.png" alt="wagmiwrapper" width="200"/>
+
 
 
 ## Getting Started
