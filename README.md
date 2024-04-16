@@ -8,15 +8,14 @@ Wallet can be connected through MetaMask, CoinbaseWallet, WalletConnect and Inje
 ##  To set up the wallet connection 
 
 
-** We setup the wagmi config to specify the configuration wallets we want to connect connect. **
+**We setup the wagmi config to specify the configuration wallets we want to connect connect.**
 
- ### We set
     - Injected wallet - To prompt any injected wallet to connect
     - WalletConnect
     - CoinbaseWallet
     - MetaMask
 
-    <img src="https://github.com/Amity808/liquidity-pools-test/frontend/frontend-bank/public/wallet-option.png" alt="wagmiconfig" width="200"/>
+<img src="./wagmiconfig.png" alt="wagmiconfig" width="200"/>
 
 ![alt text](https://raw.githubusercontent.com/Amity808/liquidity-pools-test/frontend/frontend-bank/public/wallet-option.png)
 
